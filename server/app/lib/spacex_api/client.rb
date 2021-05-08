@@ -19,7 +19,7 @@ module SpaceXAPI
         end
 
         def handle_response response
-          response.deep_symbolize_keys
+          JSON.parse(response.body).deep_symbolize_keys
         end
     end
   end
