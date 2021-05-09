@@ -1,0 +1,6 @@
+.eslintignore
+.gitignore
+.npmignore
+.npmrc
+.nvmrc
+.prettierignore
